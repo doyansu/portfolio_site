@@ -137,3 +137,48 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build
+dist
+build
+coverage
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Prisma
+prisma/dev.db
+
+# Vercel
+.vercel
+
+# testing
+coverage
+
+# temp
+tmp
+temp
